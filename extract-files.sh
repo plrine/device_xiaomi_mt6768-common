@@ -90,7 +90,6 @@ function blob_fixup {
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
         vendor/lib*/hw/vendor.mediatek.hardware.pq@2.6-impl.so |\
-        vendor/lib*/hw/android.hardware.thermal@2.0-impl.so)
             "${PATCHELF}" --replace-needed "libutils.so" "libutils-v32.so" "${2}"
             ;;
 	vendor/lib64/libmi_watermark.so)
