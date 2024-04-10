@@ -19,5 +19,10 @@ cc_binary {
         "libutils",
         "android.hardware.biometrics.fingerprint@2.1",
     ],
+}
 
+cc_library_shared {
+    name: "libvendor.goodix.hardware.biometrics.fingerprint@2.1",
+    shared_libs: ["vendor.goodix.hardware.biometrics.fingerprint@2.1"],
+    vendor_available: true,
 }
