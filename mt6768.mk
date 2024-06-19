@@ -252,7 +252,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service.xiaomi-libperfmgr
+    android.hardware.power-service.lineage-libperfmgr
 
 PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
@@ -372,6 +372,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/mediatek \
     hardware/xiaomi \
+    hardware/mediatek/libmtkperf_client \
+    hardware/lineage/interfaces/power-libperfmgr \
     $(LOCAL_PATH)
 
 # Thermal
