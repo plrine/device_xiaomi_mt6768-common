@@ -29,6 +29,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default
 
 PRODUCT_PACKAGES += \
+    libldacBT_bco \
     libtinycompress \
     libtinyxml \
     tinymix
